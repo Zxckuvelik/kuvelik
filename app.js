@@ -8,8 +8,7 @@ const { post, get } = require("axios"),
     mongoose = require("mongoose"),
     helmet = require("helmet"),
     app = express(),
-    expressip = require("express-ip"),
-    Ratted = require("./models/Ratted"),
+    expressip = require("express-ip")
     port = process.env.PORT || 80
     
 //plugins
